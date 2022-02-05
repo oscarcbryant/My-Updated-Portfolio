@@ -1,4 +1,46 @@
 body {
 
-    background-color: black;
+    background-color: beige;
+}
+
+#nav-content {
+
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#travel-image {
+    border-radius: 15%;
+    height: 300px;
+    width: 450px;
+    
+}
+
+#weather-image {
+    border-radius: 15%;
+    height: 300px;
+    width: 450px;
+    border-color: black;
+
+
+}
+
+#content-div {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+#content-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    background-color: crimson;
+    height: 60px;
+    margin-top: 100px;
 }
